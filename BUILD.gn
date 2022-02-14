@@ -11,10 +11,27 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import("//build/ohos/ndk/ndk.gni")
+
 config("libSLES_public_config") {
   include_dirs = [ "api" ]
 }
 
 group("libSLES") {
   public_configs = [ ":libSLES_public_config" ]
+}
+
+ohos_ndk_headers("sles_header") {
+  dest_dir = "$ndk_headers_out_dir/SLES"
+  sources = [
+    "//third_party/openSLES/api/1.0.1/OpenSLES.h",
+    "//third_party/openSLES/api/1.0.1/OpenSLES_Platform.h",
+  ]
+}
+
+ohos_ndk_library("libOpenSLES_ndk") {
+  output_name = "OpenSLES"
+  output_extension = "so"
+  ndk_description_file = "./openSLES.ndk.json"
+  license_file = "//third_party/openSLES/LICENSE"
 }
