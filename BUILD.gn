@@ -33,5 +33,4 @@ ohos_ndk_library("libOpenSLES_ndk") {
   output_name = "OpenSLES"
   output_extension = "so"
   ndk_description_file = "./openSLES.ndk.json"
-  license_file = "//third_party/openSLES/LICENSE"
 }
