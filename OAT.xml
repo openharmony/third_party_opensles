@@ -59,7 +59,7 @@ Note:If the text contains special characters, please escape them according to th
         <licensefile>COPYING</licensefile>
         <filefilterlist>
             <filefilter name="defaultFilter" desc="Files not to check">
-	            <filteritem type="filepath" name="./api" desc="third party"/>
+                <filteritem type="filepath" name="./api" desc="third party"/>
                 <filteritem type="filepath" name="./specs" desc="third party"/>
                 <filteritem type="filename" name="NOTICE" desc="third party"/>
             </filefilter>
