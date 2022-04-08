@@ -34,4 +34,8 @@ ohos_ndk_library("libOpenSLES_ndk") {
   output_extension = "so"
   ndk_description_file = "./openSLES.ndk.json"
   system_capability = "SystemCapability.Multimedia.Audio.Core"
+  system_capability_headers = [
+    "SLES/OpenSLES.h",
+    "SLES/OpenSLES_Platform.h",
+  ]
 }
