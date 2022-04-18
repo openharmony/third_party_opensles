@@ -25,8 +25,8 @@ ohos_ndk_headers("sles_header") {
   dest_dir = "$ndk_headers_out_dir/SLES"
   sources = [
     "//third_party/openSLES/api/1.0.1/OpenSLES.h",
-    "//third_party/openSLES/api/1.0.1/OpenSLES_Platform.h",
     "//third_party/openSLES/api/1.0.1/OpenSLES_OpenHarmony.h",
+    "//third_party/openSLES/api/1.0.1/OpenSLES_Platform.h",
   ]
 }
 
