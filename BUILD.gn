@@ -26,6 +26,7 @@ ohos_ndk_headers("sles_header") {
   sources = [
     "//third_party/openSLES/api/1.0.1/OpenSLES.h",
     "//third_party/openSLES/api/1.0.1/OpenSLES_Platform.h",
+    "//third_party/openSLES/api/1.0.1/OpenSLES_OpenHarmony.h",
   ]
 }
 
