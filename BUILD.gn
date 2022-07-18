@@ -40,8 +40,4 @@ ohos_ndk_library("libOpenSLES_ndk") {
     "SLES/OpenSLES_Platform.h",
     "SLES/OpenSLES_OpenHarmony.h",
   ]
-  sources = [
-    "//third_party/openSLES/api/1.0.1/OpenSLES_IID.c",
-    "//third_party/openSLES/api/1.0.1/OpenSLES_OpenHarmony_IID.c",
-  ]
 }
