@@ -16,8 +16,12 @@
 #ifndef OPENSLES_OPENHARMONY_H
 #define OPENSLES_OPENHARMONY_H
 
-#include<OpenSLES.h>
-#include<OpenSLES_Platform.h>
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "OpenSLES.h"
+#include "OpenSLES_Platform.h"
 
 /*---------------------------------------------------------------------------*/
 /* OH Buffer Queue Interface                                                    */
@@ -58,7 +62,7 @@ struct SLOHBufferQueueItf_ {
     SLresult (*GetBuffer) (
         SLOHBufferQueueItf self,
         SLuint8** buffer,
-        SLuint32& size
+        SLuint32* size
     );
     SLresult (*RegisterCallback) (
         SLOHBufferQueueItf self,
@@ -66,4 +70,9 @@ struct SLOHBufferQueueItf_ {
         void* pContext
     );
 };
+
+#ifdef __cplusplus
+} /* extern "C" */
 #endif
+
+#endif /* OPENSLES_OPENHARMONY_H */
