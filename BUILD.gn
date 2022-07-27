@@ -37,5 +37,6 @@ ohos_ndk_library("libOpenSLES_ndk") {
   system_capability_headers = [
     "SLES/OpenSLES.h",
     "SLES/OpenSLES_Platform.h",
+    "SLES/OpenSLES_OpenHarmony.h",
   ]
 }

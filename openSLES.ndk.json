@@ -17,6 +17,7 @@
 	{"name":"SL_IID_VOLUME"},
 	{"name":"SL_IID_DEVICEVOLUME"},
 	{"name":"SL_IID_BUFFERQUEUE"},
+	{"name":"SL_IID_OH_BUFFERQUEUE"},
 	{"name":"SL_IID_PRESETREVERB"},
 	{"name":"SL_IID_ENVIRONMENTALREVERB"},
 	{"name":"SL_IID_EFFECTSEND"},
