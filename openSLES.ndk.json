@@ -1,4 +1,6 @@
 [
+	{"name":"SL_IID_PLAY"},
+	{"name":"SL_IID_RECORD"},
 	{"name":"SL_IID_VOLUME"},
 	{"name":"SL_IID_OH_BUFFERQUEUE"},
 	{"name":"SL_IID_ENGINE"},
