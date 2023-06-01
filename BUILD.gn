@@ -39,9 +39,5 @@ ohos_ndk_library("libOpenSLES_ndk") {
     "SLES/OpenSLES.h",
     "SLES/OpenSLES_Platform.h",
     "SLES/OpenSLES_OpenHarmony.h",
-    "ohaudio/native_audiostream_base.h",
-    "ohaudio/native_audiostreambuilder.h",
-    "ohaudio/native_audiorenderer.h",
-    "ohaudio/native_audiocapturer.h",
   ]
 }
