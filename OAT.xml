@@ -78,6 +78,16 @@ Note:If the text contains special characters, please escape them according to th
                 <policyitem type="license" name="Khronos License" path="api/1.1/OpenSLES.h" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Open SLES raw file"/>
                 <policyitem type="license" name="Khronos License" path="api/1.1/OpenSLES_IID.c" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Open SLES raw file"/>
                 <policyitem type="license" name="Khronos License" path="api/1.1/OpenSLES_Platform.h" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Open SLES raw file"/>
+
+                <policyitem type="compatibility" name="Khronos License" path="api/1.0/OpenSLES.h" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Khronos License协议,不影响兼容性"/>
+                <policyitem type="compatibility" name="Khronos License" path="api/1.0/OpenSLES_IID.c" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Khronos License协议,不影响兼容性"/>
+                <policyitem type="compatibility" name="Khronos License" path="api/1.0/OpenSLES_Platform.h" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Khronos License协议,不影响兼容性"/>
+                <policyitem type="compatibility" name="Khronos License" path="api/1.0.1/OpenSLES.h" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Khronos License协议,不影响兼容性"/>
+                <policyitem type="compatibility" name="Khronos License" path="api/1.0.1/OpenSLES_IID.c" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Khronos License协议,不影响兼容性"/>
+                <policyitem type="compatibility" name="Khronos License" path="api/1.0.1/OpenSLES_Platform.h" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Khronos License协议,不影响兼容性"/>
+                <policyitem type="compatibility" name="Khronos License" path="api/1.1/OpenSLES.h" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Khronos License协议,不影响兼容性"/>
+                <policyitem type="compatibility" name="Khronos License" path="api/1.1/OpenSLES_IID.c" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Khronos License协议,不影响兼容性"/>
+                <policyitem type="compatibility" name="Khronos License" path="api/1.1/OpenSLES_Platform.h" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Khronos License协议,不影响兼容性"/>
             </policy>
         </policylist>
         <licensematcherlist>
