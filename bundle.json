@@ -27,18 +27,17 @@
             "third_party": []
         },
         "build": {
-            "sub_component": [
-            ],
-             "inner_kits": [
+            "sub_component": [],
+            "inner_kits": [
                 {
                     "name": "//arkcompiler/third_party/openSLES:libOpenSLES_ndk",
                     "header": {
-                      "header_files": [
-                        "OpenSLES_OpenHarmony.h",
-                        "OpenSLES_Platform.h",
-                        "OpenSLES.h"
-                      ],
-                      "header_base": "//arkcompiler/third_party/OpenSLES/api/1.0.1"
+                        "header_files": [
+                            "OpenSLES_OpenHarmony.h",
+                            "OpenSLES_Platform.h",
+                            "OpenSLES.h"
+                        ],
+                        "header_base": "//arkcompiler/third_party/OpenSLES/api/1.0.1"
                     }
                 }
             ],
