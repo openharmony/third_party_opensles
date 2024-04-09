@@ -20,24 +20,3 @@ config("libSLES_public_config") {
 group("libSLES") {
   public_configs = [ ":libSLES_public_config" ]
 }
-
-ohos_ndk_headers("sles_header") {
-  dest_dir = "$ndk_headers_out_dir/SLES"
-  sources = [
-    "api/1.0.1/OpenSLES.h",
-    "api/1.0.1/OpenSLES_OpenHarmony.h",
-    "api/1.0.1/OpenSLES_Platform.h",
-  ]
-}
-
-ohos_ndk_library("libOpenSLES_ndk") {
-  output_name = "OpenSLES"
-  output_extension = "so"
-  ndk_description_file = "./openSLES.ndk.json"
-  system_capability = "SystemCapability.Multimedia.Audio.Core"
-  system_capability_headers = [
-    "SLES/OpenSLES.h",
-    "SLES/OpenSLES_Platform.h",
-    "SLES/OpenSLES_OpenHarmony.h",
-  ]
-}
