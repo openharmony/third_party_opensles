@@ -14,7 +14,7 @@
 import("//build/ohos/ndk/ndk.gni")
 
 config("libSLES_public_config") {
-  include_dirs = [ "api" ]
+  include_dirs = [ "api/1.0.1" ]
 }
 
 group("libSLES") {
