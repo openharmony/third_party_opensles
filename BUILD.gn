@@ -10,13 +10,17 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+import("//build/ohos.gni")
 import("//build/ohos/ndk/ndk.gni")
 
 config("libSLES_public_config") {
   include_dirs = [ "api/1.0.1" ]
 }
 
-group("libSLES") {
+ohos_shared_library("libSLES") {
   public_configs = [ ":libSLES_public_config" ]
+  sources = [
+    "api/1.0.1/OpenSLES_IID.c",
+    "api/1.0.1/OpenSLES_OpenHarmony_IID.c",
+  ]
 }
