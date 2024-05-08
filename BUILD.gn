@@ -17,7 +17,7 @@ config("libSLES_public_config") {
   include_dirs = [ "api/1.0.1" ]
 }
 
-ohos_shared_library("libSLES") {
+ohos_static_library("libSLES") {
   public_configs = [ ":libSLES_public_config" ]
   sources = [
     "api/1.0.1/OpenSLES_IID.c",
