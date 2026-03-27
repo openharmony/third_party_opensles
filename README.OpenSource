@@ -1,7 +1,7 @@
 [
     {
         "Name": "Khronos Group - OpenSL ES",
-        "License": "null",
+        "License": "MIT",
         "License File": "NOTICE",
         "Version Number": "1.0.1",
         "Owner": "yangshuai67@huawei.com",
