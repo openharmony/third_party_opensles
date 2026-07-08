@@ -18,6 +18,13 @@ config("libSLES_public_config") {
 }
 
 ohos_static_library("libSLES") {
+  branch_protector_ret = "pac_ret"
+  sanitize = {
+    cfi = true
+    cfi_cross_dso = true
+    cfi_vcall_icall_only = true
+    debug = false
+  }
   public_configs = [ ":libSLES_public_config" ]
   sources = [
     "api/1.0.1/OpenSLES_IID.c",
